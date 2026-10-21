@@ -1,0 +1,7 @@
+{
+  "item.tet.throttle": "油门",
+  "item.tet.brake": "刹车",
+  "item.tet.brake_broken": "断裂的刹车",
+  "itemGroup.tet": "刹车与油门",
+  "effect.tet.sealed": "封口"
+}

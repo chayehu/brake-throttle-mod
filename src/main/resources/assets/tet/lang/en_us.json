@@ -1,0 +1,7 @@
+{
+  "item.tet.throttle": "Throttle",
+  "item.tet.brake": "Brake",
+  "item.tet.brake_broken": "Broken Brake",
+  "itemGroup.tet": "Brake & Throttle",
+  "effect.tet.sealed": "Sealed"
+}

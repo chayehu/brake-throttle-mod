@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "tet",
+	"version": "1.0.0",
+	"name": "Brake & Throttle",
+	"description": "Adds throttle and brake items.\n\n作者：Tea_Leaf_Fox\n社交媒体账号 bilibili：茶叶狐\n\n版权声明：\n本模组采用 CC BY-NC-SA 4.0 协议发布。\n你可以自由游玩、收录进整合包、修改并分发，但必须保留作者署名，不得用于商业用途，修改后的版本必须以相同协议开源。\n完整协议：https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	"authors": ["Tea_Leaf_Fox"],
+	"contact": {
+		"社交媒体账号": "bilibili：茶叶狐",
+		"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+	},
+	"license": "CC-BY-NC-SA-4.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.tet.TetMod"],
+		"client": ["com.tet.client.TetModClient"]
+	},
+	"mixins": [
+		"tet.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"fabric-api": "*",
+		"minecraft": "~1.21.11"
+	}
+}

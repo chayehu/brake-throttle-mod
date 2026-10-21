@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.tet.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MobSetTargetMixin",
+    "WardenTargetMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
